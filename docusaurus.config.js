@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'BC413', // Usually your GitHub org/user name.
+  organizationName: 'YellowBud-Network', // Usually your GitHub org/user name.
   projectName: 'mtr', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['en', 'zh-Hans'],
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -68,16 +68,16 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
+          },
+          {to: '/blog', label: '博客', position: 'left'},
+          {
+            href: 'https://github.com/黄芽网络/mtr',
+            label: 'GitHub',
+            position: 'right',
           },
           {
             type: 'localeDropdown',
-            position: 'right',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/BC413/mtr',
-            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -85,6 +85,27 @@ const config = {
       footer: {
         style: 'dark',
         links: [
+          {
+            title: '帮主',
+            items: [
+              {
+                label: '哔哩哔哩功能',
+                to: '/help/qq/bilibili',
+              },
+              {
+                label: '微博功能',
+                to: '/help/qq/weibo',
+              },
+              {
+                label: 'Minecraft 功能',
+                to: '/help/qq/mc',
+              },
+              {
+                label: '版权与许可',
+                to: '/help/qq/',
+              },
+            ],
+          },
           {
             title: '条款',
             items: [
@@ -95,10 +116,6 @@ const config = {
               {
                 label: '免责声明',
                 to: '/policies/privacy',
-              },
-              {
-                label: '使用与转载规范',
-                to: '/policies/repost',
               },
               {
                 label: '版权与许可',

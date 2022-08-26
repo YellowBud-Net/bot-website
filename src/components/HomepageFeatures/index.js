@@ -8,16 +8,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        以 Markdown 为中心的项目结构，使界面简洁明了。
+        追求每一个分支都简单明了，不做过多复杂命令。
       </>
     ),
   },
   {
-    title: '高速下载',
+    title: '稳定运行',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        提供MTRmod高速下载节点，不再因网络苦苦等待。
+        在不出任何意外的情况下，我们可以稳定保持 24 小时 运行。
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        由BC413发起的完全免费的文档站及下载站，不含任何商业广告！
+        自开始运营至今，从未收取任何一分钱，也从未包含任何商业广告！
       </>
     ),
   },
