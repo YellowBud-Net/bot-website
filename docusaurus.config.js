@@ -86,23 +86,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '帮主',
+            title: '帮助',
             items: [
               {
                 label: '哔哩哔哩功能',
-                to: '/help/qq/bilibili',
+                to: '/help/bilibili',
               },
               {
                 label: '微博功能',
-                to: '/help/qq/weibo',
+                to: '/help/weibo',
               },
               {
                 label: 'Minecraft 功能',
-                to: '/help/qq/mc',
-              },
-              {
-                label: '版权与许可',
-                to: '/help/qq/',
+                to: '/help/mc',
               },
             ],
           },
