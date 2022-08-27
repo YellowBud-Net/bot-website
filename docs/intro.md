@@ -4,7 +4,7 @@ title: 首页
 description: 首页
 ---
 
-## 来自 Docusaurus 的问候
+## 来自 黄芽机器人 的问候
 
 你准备好使用黄芽机器人了吗？
 

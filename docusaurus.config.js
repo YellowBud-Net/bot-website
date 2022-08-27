@@ -120,6 +120,15 @@ const config = {
             ],
           },
           {
+            title: '社群',
+            items: [
+              {
+                label: '腾讯QQ',
+                to: 'https://jq.qq.com/?_wv=1027&k=K0BmMxNk',
+              },
+            ],
+          },
+          {
             title: '友情链接',
             items: [
               {
